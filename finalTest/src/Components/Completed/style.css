@@ -1,0 +1,45 @@
+.completed {
+    width: 100%;
+}
+
+.completed .list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.completed .list .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.completed .list .item del {
+    flex: 1;
+}
+
+.completed .list .item .icon {
+    cursor: pointer;
+}
+
+.completed button {
+    text-align: end;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #ff3041;
+    position: relative;
+    left: 395px;
+    cursor: pointer;
+}
+
+.completed button path {
+    fill: #FFFFFF;
+}
